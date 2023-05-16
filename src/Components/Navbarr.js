@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 // import { Link } from "react-router-dom";
 
-function Header() {
+function Navbarr() {
   return (
     <>
       <Navbar bg="dark" variant="dark">
@@ -21,4 +21,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Navbarr;
