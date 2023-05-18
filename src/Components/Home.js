@@ -2,9 +2,7 @@ import axios from "axios";
 import React from "react";
 import MovieList from "./MovieList";
 import { useState, useEffect } from "react";
-import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+
 
 function Home() {
   const [moviesList, setMoviesList] = useState([]);
