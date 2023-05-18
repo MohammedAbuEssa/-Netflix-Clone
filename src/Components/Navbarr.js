@@ -13,7 +13,6 @@ function Navbarr() {
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/favlist">FavList</Nav.Link>
-            <Nav.Link href="/movielist">MovieList</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
