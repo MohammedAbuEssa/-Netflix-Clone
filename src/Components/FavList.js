@@ -71,7 +71,7 @@ function FavList() {
                     handleUpdate(item);
                   }}
                 >
-                  Update
+                  Update movie
                 </Button>
               </Card.Body>
             </Card>
