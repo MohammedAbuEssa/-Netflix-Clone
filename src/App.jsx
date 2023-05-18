@@ -12,7 +12,6 @@ export default function App() {
 <Navbarr/>
 <Routes>
   <Route path='/' element={<Home/>}/>
-  <Route path='/movielist' element={<MovieList/>}/>
   <Route path='/favlist' element={<FavList/>}/>
 </Routes>
 </>
