@@ -13,7 +13,7 @@ function Movie(props) {
 
   const handleAddtoFavList = async (item) => {
     const result = await axios.post(
-      "https://movieslibrary-6qwc.onrender.com/getMovies",
+      `${process.env.REACT_APP_SERVER_URL}getMovies`,
       item
     );
     console.log(result.data);

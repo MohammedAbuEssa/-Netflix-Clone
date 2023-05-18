@@ -10,7 +10,7 @@ function ModalMovie(props) {
     <>
       <Modal show={props.moveShow} onHide={props.moveHide}>
         <Modal.Header closeButton>
-          <img variant="top" src={props.moveShow.poster} />
+          <img variant="top" src={`https://image.tmdb.org/t/p/w500${props.moveData.poster}`} />
           <Modal.Title>{props.moveData.name}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
